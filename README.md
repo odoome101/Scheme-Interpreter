@@ -2,12 +2,12 @@
 
 ## Phases of this project
 ### Phase 1: Linked List
-To implement a linked list that will be used throughout the interpreter project.
+  To implement a linked list that will be used throughout the interpreter project.
 ##### Main files at this phase: 
 linkedlist.c linkedlist.h
 
 ### Phase 2: Talloc("tracked malloc")
-To create a garbage collector to manage memory usage throughout the interpreter project.
+  To create a garbage collector to manage memory usage throughout the interpreter project.
 ##### Main files at this phase: 
 talloc.c talloc.h
 ### Phase 3: Tokenizer
