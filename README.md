@@ -1,5 +1,6 @@
 # Interpreter for Scheme (R5RS) written in C.
 ## Run this program
+Open the terminal 
 ```
 $ git clone https://github.com/yingyingww/Scheme-Interpreter.git
 $ cd Scheme-Interpreter
