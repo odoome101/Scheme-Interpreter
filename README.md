@@ -57,51 +57,47 @@ interpreter.h interpreter.c
 interpreter.h interpreter.c
 &npsp;&nbsp;
 ##### Primitive procedures:
-&npsp; *, -, /, <=, eq?, pair?, and apply.
+&nbsp; *, -, /, <=, eq?, pair?, and apply.
 ###### Main file:
 interpreter.c
 
 ##### Library procedures:
-&npsp;=, modulo, zero?, equal?, list, and append.
+ &nbsp; =, modulo, zero?, equal?, list, and append.
 ###### Main file:
 lists.scm (include list and append)
 math.scm (include =, modulo, zero?, and equal?)
 ##### Special forms: 
-&npsp; lambda, let*, letrec, and, or, cond, set!, and begin.
+ &nbsp;  lambda, let*, letrec, and, or, cond, set!, and begin.
 ###### Main file:
 interpreter.c
 
 
 ##### Extensions -
 ###### A simple interface
-&npsp; The classic core of an interpreter is the read–eval–print loop, a.k.a. REPL. Adding this functionality to our code allows for interactive usage.
+ &nbsp; The classic core of an interpreter is the read–eval–print loop, a.k.a. REPL. Adding this functionality to our code allows for interactive usage.
 ###### Main file:
 tokenizer.c main.c
 
 ##### ' as the shorthand for quote special form NOT YET!!!!!
-&npsp; For example, '(2 2 8) as the shorthand for (quote (2 2 8))
+ &nbsp; For example, '(2 2 8) as the shorthand for (quote (2 2 8))
 Currently doesn't work for nested lists
 ###### Main file:
 tokenizer.c 
 
 ##### The function load
-&npsp; The expression (load "tofu.scm") reads in the file and excutes the Scheme code within as if it were typed directly as part of the input.
+ &nbsp; The expression (load "tofu.scm") reads in the file and excutes the Scheme code within as if it were typed directly as part of the input.
 ###### Main file:
 interpreter.c
 
 ##### More built-in functions to manipulate lists.
-&npsp; In a file called lists.scm, implement the following functions (refer to R5RS, Dybvig, or Racket reference for specification) using only special forms and primitives that you've implemented (e.g., car, cdr, cons, null?, pair?, and apply).
+ &nbsp; In a file called lists.scm, implement the following functions (refer to R5RS, Dybvig, or Racket reference for specification) using only special forms and primitives that you've implemented (e.g., car, cdr, cons, null?, pair?, and apply).
 ###### Main file:
 lists.scm
 
 ##### More built-in functions with regards to arithmetic.
-&npsp; To implement the following functions using only special forms and primitives that we've implemented (e.g., +, -, *, /, and <=) in a file called math.scm.
+ &nbsp; To implement the following functions using only special forms and primitives that we've implemented (e.g., +, -, *, /, and <=) in a file called math.scm.
 ###### Main file:
 math.scm
-
-
-
-
 
 ## Author: 
 * **Yitong Chen** - [yitongc19](https://github.com/yitongc19)
