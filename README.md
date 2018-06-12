@@ -17,6 +17,7 @@ $ ./interpreter < input.scm
 ```
 
 ## Phases of this project
+Carleton College • Spring Term 2018 • Programming Languages
 ### Phase 1: Linked List
  &nbsp; To implement a linked list that will be used throughout the interpreter project.
 ##### Main files at this phase: 
